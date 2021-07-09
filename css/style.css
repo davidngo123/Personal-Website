@@ -189,7 +189,10 @@ li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
-
+  padding-right: max(2vh, 5%);
+  padding-left: max(2vh, 5%);
+  padding-top: max(1.5vh, 5%);
+  padding-bottom: max(2vh, 5%);
   text-decoration: none;
   font-size: max(1vw, 1%);
 }
@@ -313,6 +316,12 @@ li a:hover {
   margin-bottom:5%;
 }
 
+#projects img {
+  height:10%;
+  width:10%;
+}
+
+
 
 /*--- contact  ---*/
 #contact {
@@ -351,4 +360,33 @@ li a:hover {
 
 #contact a {
   color: white;
+}
+
+#contact a:hover {
+  color: hotpink;
+}
+
+#footer {
+  background-color: #303841;
+  width:100%;
+  height:4%;
+  border-style: solid;
+  border-top-color: #5f91f5;
+  border-top-width: max(.3vw, .3px);
+  text-align: center;
+}
+
+#footer p{
+  margin-top:.5%;
+  font-size: max(.8vw, .8px);
+}
+
+#footer a{
+  color:#fff;
+  
+}
+
+#footer a:hover{
+  color:hotpink;
+  
 }
