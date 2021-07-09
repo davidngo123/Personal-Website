@@ -321,3 +321,34 @@ li a:hover {
   background-color: #303841;
 }
 
+#contact h1 {
+  color: #fff;
+  font-size:max(3vw, 3px);
+  text-align: center;
+  position: relative;
+  margin-bottom: 2%;
+  top:30%;
+}
+
+#contact h2 {
+  color: #fff;
+  font-size:max(1vw, 1px);
+  text-align: center;
+  position: relative;
+  top:30%;
+  font-weight: normal;
+  margin-bottom: 4%;
+}
+
+#contact p {
+  color: #fff;
+  font-size:max(1.5vw, 1.5px);
+  text-align: center;
+  position: relative;
+  top:30%;
+  word-spacing: 8vh;
+}
+
+#contact a {
+  color: white;
+}
