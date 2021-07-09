@@ -261,7 +261,13 @@ li a:hover {
   padding-left: 2%;
   margin-bottom: 1%;
 }
-
+.column-card2 img{
+  position:relative;
+  left: 55%;
+  padding-top:2.5%;
+  height: 35%;
+  width: 35%;
+}
 
 #projects{
   width: 100%;
