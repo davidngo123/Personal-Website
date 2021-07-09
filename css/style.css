@@ -158,7 +158,9 @@ canvas{
   left:25%;
 }
 
-
+.button:hover {
+  background-color: #223094;
+}
 .row:after {
   content: "";
   display: table;
